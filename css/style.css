@@ -9,19 +9,49 @@ video {
     width: 100%;
     position: fixed;
     z-index: -20;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
 }
 
-.logo {
-    width: 75%;
+
+ .logo {
+        width: 75%;
+        grid-column-start: 2;
+        grid-row-start: 3;
+        text-align: center;
+    }
+
+
+picture img {
+    width: 100%;
+    position: relative;
+
 }
 
-/*laptop*/
 
-@media (min-width:768px) {}
+
+/*taplet*/
+
+@media (min-width:768px) {
+
+    video {
+        display: block;
+    }
+
+    picture {
+        display: none;
+    }
+    logo {
+        width: 100%;
+    }
+}
 
 /*PC*/
 
 @media (min-width:1025px) {
+
+
 
     .headergrid {
         display: grid;
@@ -29,17 +59,7 @@ video {
         grid-template-rows: 40px 100px 100px 100px 100px 100px;
     }
 
-    video {
-        width: 100%;
-        position: fixed;
-        z-index: -20;
-    }
 
-    .logo {
-        width: 100%;
-        grid-column-start: 2;
-        grid-row-start: 3;
-        text-align: center;
-    }
 
+   
 }
