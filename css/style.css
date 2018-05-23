@@ -8,7 +8,8 @@
 header {
     display: grid;
     grid-template-columns: 12.5% 75% 12.5%;
-    grid-template-rows: 100px 80px 100px 100px 100px 100px 100px;}
+    grid-template-rows: 100px 80px 100px 100px 100px 100px 100px;
+}
 
 
 
@@ -18,7 +19,12 @@ header {
     url('cheboygan.ttf') format('truetype');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'cheboygan', serif;
 }
 
@@ -36,11 +42,11 @@ video {
 }
 
 
- .logo {
-        width: 100%;
-        grid-column-start: 2;
-        grid-row-start: 3;        
-    }
+.logo {
+    width: 100%;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
 
 #akvarie-bil {
     width: 100%;
