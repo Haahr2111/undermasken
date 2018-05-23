@@ -5,6 +5,12 @@
     margin: 0;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 12.5% 75% 12.5%;
+    grid-template-rows: 100px 80px 100px 100px 100px;
+}
+
 video {
     width: 100%;
     position: fixed;
@@ -16,16 +22,18 @@ video {
 
 
  .logo {
-        width: 75%;
+        width: 100%;
         grid-column-start: 2;
         grid-row-start: 3;
-        text-align: center;
+        
     }
 
 
-picture img {
+#akvarie-bil {
     width: 100%;
-    position: relative;
+    z-index: -20;
+    grid-column-start: 1;
+    grid-column-end: 4;
 
 }
 
