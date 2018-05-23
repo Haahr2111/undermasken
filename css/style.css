@@ -19,21 +19,24 @@ header {
     display: block;
 }
 
-nav {
+.nav {
     position: relative;
     z-index: 1;
-    grid-column-start: ;
+    grid-column-start: 3;
     grid-column-end: 4;
 }
 
 nav img {
     width: 100%;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 .menu {
     display: none;
     grid-column-start: 1;
     grid-column-end: 4;
+    width: 100%;
 }
 
 .menu a {
@@ -44,6 +47,7 @@ nav img {
     display: block;
     border-bottom: 1px solid #EAEAEB;
     background-color: white;
+    font-family: 'Poppins';
 }
 
 @font-face {
