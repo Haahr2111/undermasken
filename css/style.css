@@ -37,8 +37,16 @@ a {
 
 header {
     display: grid;
-    grid-template-columns: 5% 7.5% 75% 7.5% 5%;
+    grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
     grid-template-rows: 100px 80px 100px 100px 100px 100px 100px;
+}
+
+header h2 {
+    color: black;
+    padding-top: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
 }
 
 #toggle {
@@ -53,7 +61,7 @@ header {
     position: relative;
     z-index: 1;
     grid-row-start: 1;
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-column-end: 2;
     float: right;
 }
@@ -84,10 +92,10 @@ nav img {
 }
 
 #landingimg {
-    margin-top: -100px;
-    width: 100%;
+    grid-row-start: 1;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
+    width: 100%;
 }
 
 .bill-ramme {
@@ -131,19 +139,11 @@ video {
     display: none;
 }
 
-
 .logo {
     width: 100%;
     grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 3;
-}
-
-#akvarie-bil {
-    width: 100%;
-    z-index: -20;
-    grid-column-start: 1;
-    grid-column-end: 4;
-
 }
 
 /*taplet*/
