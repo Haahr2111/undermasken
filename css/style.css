@@ -15,14 +15,20 @@ p {
 
 h1 {
     color: #cd6c01;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h3 {
     color: #d49957;
+      margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h4 {
     color: #ceb394;
+      margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 a {
@@ -84,12 +90,17 @@ nav img {
 
 .bill-ramme {
     width: 100%;
+    margin-top: 20px;
 }
 
 .info-bill {
     width: 100%;
+    margin-top: 20px;
 }
-
+#haand {
+    width: 20%;
+    margin: 20px;
+}
 @font-face {
     font-family: 'cheboygan';
     src: url('cheboygan.woff') format('woff'),
