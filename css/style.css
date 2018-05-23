@@ -5,6 +5,25 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'cheboygan';
+    src: url('cheboygan.woff') format('woff'),
+    url('cheboygan.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'cheboygan', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
 video {
     width: 100%;
     position: fixed;
@@ -15,12 +34,12 @@ video {
 }
 
 
- .logo {
-        width: 75%;
-        grid-column-start: 2;
-        grid-row-start: 3;
-        text-align: center;
-    }
+.logo {
+    width: 75%;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: center;
+}
 
 
 picture img {
@@ -61,5 +80,5 @@ picture img {
 
 
 
-   
+
 }
