@@ -51,12 +51,11 @@ header h2 {
 }
 
 .daeng {
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-column-start: 3;
     grid-column-end: 5;
     text-align: center;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-    font-size: 30px;
 }
 
 .daeng p {
@@ -164,8 +163,8 @@ video {
 
 .logo {
     width: 100%;
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 3;
 }
 
