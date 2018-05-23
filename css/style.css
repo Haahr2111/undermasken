@@ -53,14 +53,14 @@ header {
     position: relative;
     z-index: 1;
     grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 2;
+    float: right;
 }
 
 nav img {
     float: right;
     width: 15%;
-    padding-right: 5px;
     padding-top: 10px;
 }
 
@@ -74,18 +74,20 @@ nav img {
     line-height: 80px;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: #cd6c01;
     display: block;
-    border-bottom: 1px solid white;
+    border: 2px solid white;
     background-color: black;
-    font-family: 'Poppins';
+    font-family: 'cheboygan';
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 #landingimg {
     margin-top: -100px;
     width: 100%;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
 }
 
 .bill-ramme {
@@ -132,7 +134,7 @@ video {
 
 .logo {
     width: 100%;
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-row-start: 3;
 }
 
