@@ -5,6 +5,26 @@
     margin: 0;
 }
 
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: #cd6c01;
+}
+
+h3 {
+    color: #d49957;
+}
+
+h4 {
+    color: #ceb394;
+}
+
 header {
     display: grid;
     grid-template-columns: 12.5% 75% 12.5%;
@@ -49,6 +69,14 @@ nav img {
     border-bottom: 1px solid #EAEAEB;
     background-color: white;
     font-family: 'Poppins';
+}
+
+.bill-ramme {
+    width: 100%;
+}
+
+.info-bill {
+    width: 100%;
 }
 
 @font-face {
