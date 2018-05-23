@@ -11,7 +11,40 @@ header {
     grid-template-rows: 100px 80px 100px 100px 100px 100px 100px;
 }
 
+#toggle {
+    display: none;
+}
 
+#toggle:checked + .menu {
+    display: block;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    grid-column-start: ;
+    grid-column-end: 4;
+}
+
+nav img {
+    width: 100%;
+}
+
+.menu {
+    display: none;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.menu a {
+    line-height: 105px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    background-color: white;
+}
 
 @font-face {
     font-family: 'cheboygan';
