@@ -31,7 +31,7 @@ a {
 
 header {
     display: grid;
-    grid-template-columns: 12.5% 75% 12.5%;
+    grid-template-columns: 5% 7.5% 75% 7.5% 5%;
     grid-template-rows: 100px 80px 100px 100px 100px 100px 100px;
 }
 
