@@ -89,7 +89,11 @@ nav img {
     grid-column-start: 1;
     grid-column-end: 6;
 }
-
+.deler {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .bill-ramme {
     width: 100%;
     margin-top: 20px;
