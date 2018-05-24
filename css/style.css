@@ -185,8 +185,10 @@ nav img:hover {
 
 .menu {
     display: none;
-    width: 100%;
+    width: 90%;
     margin-top: 72px;
+    right: 20px;
+    position: fixed;
 }
 
 .menu a {
