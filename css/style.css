@@ -172,15 +172,23 @@ header h2 {
 }
 
 nav img {
-    float: right;
+    right: 5px;
     width: 17%;
     padding-top: 10px;
+    opacity: 0.5;
+    position: fixed;
+}
+
+nav img:hover {
+    opacity: 1;
 }
 
 .menu {
     display: none;
-    width: 100%;
+    width: 90%;
     margin-top: 72px;
+    right: 20px;
+    position: fixed;
 }
 
 .menu a {
