@@ -190,15 +190,4 @@ video {
 
 @media (min-width:1025px) {
 
-
-
-    .headergrid {
-        display: grid;
-        grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-rows: 40px 100px 100px 100px 100px 100px;
-    }
-
-
-
-
 }
