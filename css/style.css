@@ -173,6 +173,24 @@ footer img {
     width: 100%;
 }
 
+/* ILLUMINATI HOP */
+
+.illuminati {
+    z-index: 2;
+	width:100px;
+	height:100px;
+	display:block;	
+	background:transparent url(illuminati-hop.png) 0 0 no-repeat;
+	margin:3em auto;
+	animation: illuminati 2s steps(10) infinite;
+}
+
+
+@keyframes illuminati {
+	0% {background-position: 0 0;}
+	100% {background-position: 0 -1000px;}
+}
+
 /*taplet*/
 
 @media (min-width:768px) {
