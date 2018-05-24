@@ -36,9 +36,16 @@ body {
     width: 100%;
     margin-top: 20px;
 }
+
+.springer {
+    grid-column-start: 2;
+    width: 50%;
+    margin-bottom: 40px;
+}
 .haand {
     width: 20%;
-    margin: 20px;
+    margin-left: 40px;
+    margin-bottom: 15px;
 }
 
 video {
