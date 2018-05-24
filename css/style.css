@@ -172,15 +172,9 @@ header h2 {
 }
 
 nav img {
-    right: 5px;
+    float: right;
     width: 17%;
     padding-top: 10px;
-    opacity: 0.5;
-    position: fixed;
-}
-
-nav img:hover {
-    opacity: 1;
 }
 
 .menu {
@@ -188,7 +182,7 @@ nav img:hover {
     width: 90%;
     margin-top: 72px;
     right: 20px;
-    position: fixed;
+    width: 100%;
 }
 
 .menu a {
@@ -243,27 +237,7 @@ footer p {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* ILLUMINATI HOP */
-
-.illuminati {
-    z-index: 2;
-	width:100px;
-	height:100px;
-	display:block;	
-	background:transparent url(illuminati-hop.png) 0 0 no-repeat;
-	margin:3em auto;
-	animation: illuminati 2s steps(10) infinite;
-}
-
-
-@keyframes illuminati {
-	0% {background-position: 0 0;}
-	100% {background-position: 0 -1000px;}
-}
-=======
 /*footer slut*/
->>>>>>> f48723a753507f78833a9ccf690bf4a746df8fbe
 
 /*taplet*/
 
