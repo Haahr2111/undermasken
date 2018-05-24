@@ -9,6 +9,71 @@ body {
     background-color: black;
 }
 
+.bodygrid {
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+}
+
+/*global slut*/
+
+/*content*/
+
+.content {
+    grid-column-start: 2;
+}
+
+.deler {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bill-ramme {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.info-bill {
+    width: 100%;
+    margin-top: 20px;
+}
+.haand {
+    width: 20%;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    position: fixed;
+    z-index: -20;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+}
+
+/*content slut*/
+
+/*tekst*/
+
+@font-face {
+    font-family: 'cheboygan';
+    src: url('cheboygan.woff') format('woff'),
+    url('cheboygan.woff2') format('woff2')
+    url('cheboygan.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'cheboygan', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
 p {
     color: white;
     margin: 10px;
@@ -36,10 +101,21 @@ a {
     color:white;
 }
 
+/*tekst slut*/
+
+/*header*/
+
 header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
-    grid-template-rows: 100px 80px 100px 100px 100px 80px 20px;
+    grid-template-rows: 100px 80px 100px 100px 135px 60px 20px;
+}
+
+.logo {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
 }
 
 header h2 {
@@ -52,7 +128,7 @@ header h2 {
 }
 
 .daeng {
-    grid-row-start: 7;
+    grid-row-start: 6;
     grid-column-start: 3;
     grid-column-end: 5;
     text-align: center;
@@ -67,6 +143,17 @@ header h2 {
     color: black;
     text-decoration: none;
 }
+
+#landingimg {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 100%;
+}
+
+/*header slut*/
+
+/*burger*/
 
 #toggle {
     display: none;
@@ -85,15 +172,23 @@ header h2 {
 }
 
 nav img {
-    float: right;
+    right: 5px;
     width: 17%;
     padding-top: 10px;
+    opacity: 0.5;
+    position: fixed;
+}
+
+nav img:hover {
+    opacity: 1;
 }
 
 .menu {
     display: none;
-    width: 100%;
+    width: 90%;
     margin-top: 72px;
+    right: 20px;
+    position: fixed;
 }
 
 .menu a {
@@ -109,70 +204,46 @@ nav img {
     margin-top: 10px;
 }
 
-#landingimg {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    width: 100%;
-}
-.deler {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.bill-ramme {
-    width: 100%;
-    margin-top: 20px;
+/*burger slut*/
+
+/*footer*/
+
+footer {
+    display: grid;
+    grid-template-columns: 2% 48% 48% 2%;
+    grid-template-rows: 5px 50px;
+    margin-top: 50px;
 }
 
-.info-bill {
-    width: 100%;
-    margin-top: 20px;
-}
-#haand {
-    width: 20%;
-    margin: 20px;
-}
-@font-face {
-    font-family: 'cheboygan';
-    src: url('cheboygan.woff') format('woff'),
-    url('cheboygan.woff2') format('woff2')
-    url('cheboygan.ttf') format('truetype');
+.ramme {
+    width: 96%;
+    margin-left: 2%;
+    position: absolute;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'cheboygan', serif;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-}
-
-video {
-    width: 100%;
-    position: fixed;
-    z-index: -20;
-    min-width: 100%;
-    min-height: 100%;
-    display: none;
-}
-
-.logo {
-    width: 100%;
+.kontakt {
     grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
 }
 
-footer img {
-    width: 100%;
+.adresse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    text-align: right;
 }
 
+footer p {
+    font-size: 13px;
+    margin: 15px;
+}
+
+.adresse a{
+    text-decoration: none;
+}
+
+<<<<<<< HEAD
 /* ILLUMINATI HOP */
 
 .illuminati {
@@ -190,6 +261,9 @@ footer img {
 	0% {background-position: 0 0;}
 	100% {background-position: 0 -1000px;}
 }
+=======
+/*footer slut*/
+>>>>>>> f48723a753507f78833a9ccf690bf4a746df8fbe
 
 /*taplet*/
 
