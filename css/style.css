@@ -200,13 +200,35 @@ nav img {
 
 /*footer*/
 
-footer img {
-    width: 100%;
+footer {
+    display: grid;
+    grid-template-columns: 2% 48% 48% 2%;
+    grid-template-rows: 5px 50px;
+    margin-top: 50px;
+}
+
+.ramme {
+    width: 96%;
+    margin-left: 2%;
     position: absolute;
 }
 
+.kontakt {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.adresse {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    text-align: right;
+}
+
 footer p {
-    font-size: 12px
+    font-size: 13px;
+    margin: 15px;
 }
 
 .adresse a{
