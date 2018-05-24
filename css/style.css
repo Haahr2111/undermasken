@@ -39,7 +39,7 @@ a {
 header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
-    grid-template-rows: 100px 80px 100px 100px 100px 80px 20px;
+    grid-template-rows: 100px 80px 100px 100px 135px 60px 20px;
 }
 
 header h2 {
@@ -52,7 +52,7 @@ header h2 {
 }
 
 .daeng {
-    grid-row-start: 7;
+    grid-row-start: 6;
     grid-column-start: 3;
     grid-column-end: 5;
     text-align: center;
