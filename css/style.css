@@ -20,7 +20,6 @@ body {
 
 .content {
     grid-column-start: 2;
-    grid-column-end: 5;
 }
 
 .deler {
@@ -70,6 +69,8 @@ video {
 
 .piltop {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .piltop img {
