@@ -9,6 +9,71 @@ body {
     background-color: black;
 }
 
+.bodygrid {
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+}
+
+/*global slut*/
+
+/*content*/
+
+.content {
+    grid-column-start: 2;
+}
+
+.deler {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bill-ramme {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.info-bill {
+    width: 100%;
+    margin-top: 20px;
+}
+#haand {
+    width: 20%;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    position: fixed;
+    z-index: -20;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+}
+
+/*content slut*/
+
+/*tekst*/
+
+@font-face {
+    font-family: 'cheboygan';
+    src: url('cheboygan.woff') format('woff'),
+    url('cheboygan.woff2') format('woff2')
+    url('cheboygan.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'cheboygan', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
 p {
     color: white;
     margin: 10px;
@@ -36,10 +101,21 @@ a {
     color:white;
 }
 
+/*tekst slut*/
+
+/*header*/
+
 header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
     grid-template-rows: 100px 80px 100px 100px 135px 60px 20px;
+}
+
+.logo {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
 }
 
 header h2 {
@@ -67,6 +143,17 @@ header h2 {
     color: black;
     text-decoration: none;
 }
+
+#landingimg {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 100%;
+}
+
+/*header slut*/
+
+/*burger*/
 
 #toggle {
     display: none;
@@ -109,65 +196,9 @@ nav img {
     margin-top: 10px;
 }
 
-#landingimg {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 7;
-    width: 100%;
-}
-.deler {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.bill-ramme {
-    width: 100%;
-    margin-top: 20px;
-}
+/*burger slut*/
 
-.info-bill {
-    width: 100%;
-    margin-top: 20px;
-}
-#haand {
-    width: 20%;
-    margin: 20px;
-}
-@font-face {
-    font-family: 'cheboygan';
-    src: url('cheboygan.woff') format('woff'),
-    url('cheboygan.woff2') format('woff2')
-    url('cheboygan.ttf') format('truetype');
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'cheboygan', serif;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-}
-
-video {
-    width: 100%;
-    position: fixed;
-    z-index: -20;
-    min-width: 100%;
-    min-height: 100%;
-    display: none;
-}
-
-.logo {
-    width: 100%;
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 3;
-}
+/*footer*/
 
 footer img {
     width: 100%;
@@ -181,6 +212,8 @@ footer p {
 .adresse a{
     text-decoration: none;
 }
+
+/*footer slut*/
 
 /*taplet*/
 
