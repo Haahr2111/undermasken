@@ -137,6 +137,7 @@ nav img {
 @font-face {
     font-family: 'cheboygan';
     src: url('cheboygan.woff') format('woff'),
+    url('cheboygan.woff2') format('woff2')
     url('cheboygan.ttf') format('truetype');
 }
 
