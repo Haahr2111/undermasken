@@ -63,6 +63,10 @@ video {
     display: none;
 }
 
+.tider {
+    text-align: center;
+}
+
 /*content slut*/
 
 /*tekst*/
@@ -160,8 +164,24 @@ header h2 {
 }
 
 .illuminati {
-    margin-top: 65px;
-    width: 40%;
+    margin-top: 40px;
+    width: 35%;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    
+    0% {
+        transform: translateY(0px);
+    }
+    
+    50% {
+        transform: translateY(10px);
+    }
+    
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 #landingimg {
@@ -203,13 +223,14 @@ nav img {
     margin-top: 72px;
     right: 20px;
     width: 100%;
+    font-size: 30px;
 }
 
 .menu a {
     line-height: 80px;
     text-align: center;
     text-decoration: none;
-    color: #cd6c01;
+    color: white;
     display: block;
     border: 2px solid white;
     background-color: black;
