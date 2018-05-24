@@ -169,6 +169,10 @@ video {
     grid-row-start: 3;
 }
 
+footer img {
+    width: 100%;
+}
+
 /*taplet*/
 
 @media (min-width:768px) {
