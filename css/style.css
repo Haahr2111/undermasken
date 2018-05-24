@@ -160,8 +160,24 @@ header h2 {
 }
 
 .illuminati {
-    margin-top: 65px;
-    width: 40%;
+    margin-top: 50px;
+    width: 35%;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    
+    0% {
+        transform: translateY(10px);
+    }
+    
+    50% {
+        transform: translateY(25px);
+    }
+    
+    100% {
+        transform: translateY(10px);
+    }
 }
 
 #landingimg {
