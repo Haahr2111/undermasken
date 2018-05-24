@@ -27,6 +27,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .bill-ramme {
     width: 100%;
     margin-top: 20px;
@@ -42,6 +43,7 @@ body {
     width: 50%;
     margin-bottom: 40px;
 }
+
 .haand {
     width: 20%;
     margin-left: 40px;
@@ -64,8 +66,7 @@ video {
 @font-face {
     font-family: 'cheboygan';
     src: url('cheboygan.woff') format('woff'),
-    url('cheboygan.woff2') format('woff2')
-    url('cheboygan.ttf') format('truetype');
+    url('cheboygan.woff2') format('woff2') url('cheboygan.ttf') format('truetype');
 }
 
 h1,
@@ -90,22 +91,25 @@ h1 {
     color: #cd6c01;
     margin: 10px;
     margin-top: 20px;
+    font-size: 50px;
 }
 
 h3 {
     color: #d49957;
-      margin: 10px;
+    margin: 10px;
     margin-top: 20px;
+    font-size: 30px;
 }
 
 h4 {
     color: #ceb394;
-      margin: 10px;
+    margin: 10px;
     margin-top: 20px;
+    font-size: 24px;
 }
 
 a {
-    color:white;
+    color: white;
 }
 
 /*tekst slut*/
@@ -115,14 +119,14 @@ a {
 header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
-    grid-template-rows: 100px 80px 100px 100px 135px 60px 20px;
+    grid-template-rows: 100px 80px 100px 175px 100px;
 }
 
 .logo {
     width: 100%;
     grid-column-start: 2;
     grid-column-end: 6;
-    grid-row-start: 3;
+    grid-row-start: 2;
 }
 
 header h2 {
@@ -135,7 +139,7 @@ header h2 {
 }
 
 .daeng {
-    grid-row-start: 6;
+    grid-row-start: 5;
     grid-column-start: 3;
     grid-column-end: 5;
     text-align: center;
@@ -240,7 +244,7 @@ footer p {
     margin: 15px;
 }
 
-.adresse a{
+.adresse a {
     text-decoration: none;
 }
 
@@ -264,6 +268,4 @@ footer p {
 
 /*PC*/
 
-@media (min-width:1025px) {
-
-}
+@media (min-width:1025px) {}
