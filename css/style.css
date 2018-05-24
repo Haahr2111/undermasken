@@ -44,6 +44,9 @@ body {
     margin-bottom: 40px;
     margin-left: 20px;
 }
+#fisk {
+    width: 20%;
+}
 
 .haand {
     width: 20%;
@@ -120,7 +123,7 @@ a {
 header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
-    grid-template-rows: 100px 80px 100px 175px 100px;
+    grid-template-rows: 100px 80px 100px 175px 200px;
 }
 
 .logo {
@@ -154,6 +157,11 @@ header h2 {
 .daeng a {
     color: black;
     text-decoration: none;
+}
+
+.illuminati {
+    margin-top: 65px;
+    width: 40%;
 }
 
 #landingimg {
@@ -224,7 +232,9 @@ footer {
 .ramme {
     width: 96%;
     margin-left: 2%;
+    margin-bottom: 10px;
     position: absolute;
+    z-index: -1;
 }
 
 .kontakt {
