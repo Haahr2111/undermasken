@@ -77,7 +77,6 @@ header h2 {
 }
 
 .nav {
-    position: relative;
     z-index: 1;
     grid-row-start: 1;
     grid-column-start: 6;
