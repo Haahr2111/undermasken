@@ -171,6 +171,15 @@ video {
 
 footer img {
     width: 100%;
+    position: absolute;
+}
+
+footer p {
+    font-size: 12px
+}
+
+.adresse a{
+    text-decoration: none;
 }
 
 /*taplet*/
