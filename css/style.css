@@ -352,7 +352,7 @@ footer p {
     header {
         display: grid;
         grid-template-columns: 10% 10% 14.63% 8.63% 13.3% 8.63% 14.63% 10% 10%;
-        grid-template-rows: 1em 5em 10em 10em 10em 10em 25em;
+        grid-template-rows: 1em 5em 10em 10em 20em 25em;
     }
 
     #aabent {
@@ -382,7 +382,7 @@ footer p {
     .daeng {
         grid-column-start: 5;
         grid-column-end: 5;
-        grid-row-start: 7;
+        grid-row-start: 6;
     }
 
     .illuminati {
