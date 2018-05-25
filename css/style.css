@@ -379,6 +379,12 @@ footer p {
         margin-right: 30px;
         margin-top: 20px;
     }
+    
+    .menu {
+        width: 50%;
+        margin-left: 380px;
+        margin-top: 120px;
+    }
 
     .daeng {
         grid-column-start: 5;
