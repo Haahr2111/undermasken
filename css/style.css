@@ -257,7 +257,6 @@ footer {
     display: grid;
     grid-template-columns: 2% 48% 48% 2%;
     grid-template-rows: 5px 50px;
-    margin-top: 50px;
 }
 
 .ramme {
