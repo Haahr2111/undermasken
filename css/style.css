@@ -339,6 +339,7 @@ footer p {
     #landingimg {
         display: none;
     }
+    
     #aabent {
         grid-column-start: 1;
         margin-left: 30px;
