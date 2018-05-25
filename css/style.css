@@ -352,7 +352,7 @@ footer p {
     header {
         display: grid;
         grid-template-columns: 10% 10% 14.63% 8.63% 13.3% 8.63% 14.63% 10% 10%;
-        grid-template-rows: 1em 10em 10em 10em 10em 10em 10em 5em;
+        grid-template-rows: 1em 1em 10em 10em 10em 10em 10em 5em;
     }
 
     #aabent {
