@@ -322,19 +322,18 @@ footer p {
 /*tablet*/
 
 @media (min-width:768px) {
-    
+
     header {
         display: grid;
-        grid-template-columns: 10% 10% 14.63% 8.63% 13.3% 8.63% 14.63% 10% 10%;
-        grid-template-rows: 100px 100px 100px 100px 100px 200px 100px;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 100px 100px 100px 100px 100px 200px;
     }
 
     video {
         display: block;
         width: 100%;
         grid-column-start: 1;
-        grid-column-end: 10;
-        grid-row-start: 1;
+        grid-column-start: 4;
     }
 
     #landingimg {
@@ -348,10 +347,9 @@ footer p {
 
     .logo {
         width: 100%;
-        grid-column-start: 4;
-        grid-column-end: 7;
+        grid-column-start: 2;
+        grid-column-end: 4;
         grid-row-start: 2;
-        grid-row-end: 2;
     }
 
     .nav {
@@ -364,7 +362,7 @@ footer p {
         margin-right: 30px;
         margin-top: 20px;
     }
-    
+
     .menu {
         width: 50%;
         margin-left: 380px;
@@ -372,10 +370,11 @@ footer p {
     }
 
     .daeng {
-        grid-column-start: 5;
-        grid-column-end: 5;
-        grid-row-start: 6;
-        grid-row-end: 6;
+        width: 30%;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 8;
     }
 
     .illuminati {
@@ -418,7 +417,7 @@ footer p {
         margin-right: 30px;
         margin-top: 20px;
     }
-    
+
     .menu {
         width: 50%;
         margin-left: 380px;
@@ -437,14 +436,4 @@ footer p {
         margin-top: 10px;
     }
 
-    .pcgrid {
-        display: grid;
-        grid-template-columns: 10% 80% 10%;
-        grid-template-rows: 100px 100px 100px 100px 100px 100px;
-    }
-
-    .pccontent {
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
 }
