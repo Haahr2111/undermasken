@@ -324,15 +324,13 @@ footer p {
 
     header {
         display: grid;
-        grid-template-columns: 10% 40% 40% 10%;
-        grid-template-rows: 100px 100px 100px 100px 100px 200px;
+        grid-template-columns: 10% 22.5% 35% 22.5% 10%;
+        grid-template-rows: 1fr 3fr 1fr;
     }
 
     video {
         display: block;
         width: 100%;
-        grid-column-start: 1;
-        grid-column-start: 4;
     }
 
     #landingimg {
@@ -341,45 +339,50 @@ footer p {
     
     #aabent {
         grid-column-start: 1;
+        grid-column-end: 3;
         margin-left: 30px;
-        margin-top: 30px;
+        margin-top: 5px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        font-size: 30px;
     }
 
     .logo {
         width: 100%;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 3;
         grid-row-start: 2;
     }
 
     .nav {
-        width: 100%;
         grid-column-start: 6;
-        grid-column-end: 10;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
     }
 
     .nav img {
         margin-right: 30px;
-        margin-top: 20px;
+        margin-top: 5px;
+        width: 25%;
     }
 
     .menu {
         width: 50%;
-        margin-left: 380px;
-        margin-top: 120px;
+        margin-top: 80px;
+        position: absolute;
     }
 
     .daeng {
-        width: 30%;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 8;
+        width: 100;
+        grid-row-start: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        text-align: center;
     }
 
     .illuminati {
-        width: 60%;
-        margin-top: 10px;
+        display: none;
     }
 }
 
