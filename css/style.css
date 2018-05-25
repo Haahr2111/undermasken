@@ -46,6 +46,27 @@ body {
 }
 #fisk {
     width: 20%;
+    align-self: baseline;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -20px;
+}
+
+#fiskediv {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#fiskespringer {
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+#fisketxt {
+    width: 60%;
 }
 
 .haand {
@@ -296,7 +317,7 @@ footer p {
 
 /*footer slut*/
 
-/*taplet*/
+/*tablet*/
 
 @media (min-width:768px) {
 
@@ -325,6 +346,7 @@ footer p {
 /*PC*/
 
 @media (min-width:1025px) {
+<<<<<<< HEAD
 
 header {
     display: grid;
@@ -366,3 +388,17 @@ header {
         
     }
 }
+=======
+    
+    .pcgrid {
+        display: grid;
+        grid-template-columns: 10%; 80; 10%;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+    
+    .pccontent {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}
+>>>>>>> c23d463eced8c67c1d147108f11a9389512cbe56

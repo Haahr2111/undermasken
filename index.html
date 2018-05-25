@@ -1,10 +1,12 @@
+<!--Produktet er udarbejdet i fællesskab af Rasmus, Gertrud, Matias og Christian ved hjælp af GitHub Desktop-->
+
 <!DOCTYPE html>
 <html lang="da">
 
 <head>
     <meta charset="utf-8">
-    <meta name="Description" content="">
-    <meta name="author" content="">
+    <meta name="Description" content="Under Masken er caféen for selv den mærkeligste fisk. Stort og billigt udvalg af både af fadøl og øl på flaske. Altid fire specialøl på fad. Rygning er tilladt.">
+    <meta name="author" content="The Greatest Team">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Under Masken</title>
     <link rel="stylesheet" href="css/style.css">
@@ -37,24 +39,26 @@
             <a href="#omos"><img class="illuminati" src="images/illuminati.png" alt="illuminati pil"/></a>
         </div>
     </header>
-    <div class="bodygrid">
-        <section class="content">
+    <div class="bodygrid pcgrid">
+        <section class="content pccontent">
             <a name="omos">
                 <h1>Om os</h1>
-                <img class="springer" src="images/springer.png" alt="springer">
             </a>
-            <p> <b>Under Masken er en bar i den mest central beliggende kælder i Aarhus.</b></p>
-            <p> Vi tilbyder dig en hyggelig stemning, et åbent og hjemligt miljø og masser af begivenheder og arrangementer, hvor selv den mærkeligste fisk er velkommen.</p>
-            <img id="fisk" src="images/emoji-fish.png" alt="fisk">
+            <div id="fiskediv">
+                <img id="fiskespringer" src="images/springer.png" alt="springer">
+                <img id="fisk" src="images/emoji-fish.png" alt="fisk">
+                <p id="fisketxt"><b>Under Masken er en bar i den mest central beliggende kælder i Aarhus.</b></p>
+            </div>
+            <p>Vi tilbyder dig en hyggelig stemning, et åbent og hjemligt miljø og masser af begivenheder og arrangementer, hvor selv den mærkeligste fisk er velkommen.</p>
+            <img class="bill-ramme" src="images/indgang.jpg" alt="Indgang til undermasken">
             <a href="#toppen">
                 <div class="piltop">
                     <img src="images/pil-top.png" alt="Pil op">
                 </div>
             </a>
-            <img class="bill-ramme" src="images/indgang.jpg" alt="Indgang til undermasken">
             <img class="deler" src="images/timeglas-deler.png" alt="timeglas">
         </section>
-        <section class="content">
+        <section class="content pccontent">
             <a name="events">
                 <h1>Kommende events</h1>
             </a>
@@ -86,7 +90,7 @@
             </a>
             <img class="deler" src="images/flaske-deler.png" alt="øl-flaske">
         </section>
-        <section class="content">
+        <section class="content pccontent">
             <a name="barpriser"><img class="info-bill" src="images/barskilt.png" alt="Under maskens bar priser"></a>
             <a href="#toppen">
                 <div class="piltop">
@@ -95,7 +99,7 @@
             </a>
             <img class="deler" src="images/kompas-deler.png" alt="kompas">
         </section>
-        <section class="content">
+        <section class="content pccontent">
             <a name="historie">
                 <h1>Historie</h1>
                 <img class="springer" src="images/springer.png" alt="springer">
@@ -114,12 +118,14 @@
             </a>
             <img class="deler" src="images/boad-deler.png" alt="båd">
         </section>
-        <section class="content">
+        <section class="content pccontent">
             <a name="tider">
                 <h1 class="tider">Vi ses hos Under Masken</h1><img class="info-bill" src="images/aabningstider.png" alt="åbningstiderne på under masken"></a>
-            <div class="piltop">
-                <img src="images/pil-top.png" alt="Pil op">
-            </div>
+            <a href="#toppen">
+                <div class="piltop">
+                    <img src="images/pil-top.png" alt="Pil op">
+                </div>
+            </a>
         </section>
     </div>
     <footer>
