@@ -44,6 +44,7 @@ body {
     margin-bottom: 40px;
     margin-left: 20px;
 }
+
 #fisk {
     width: 20%;
     align-self: baseline;
@@ -176,8 +177,9 @@ header h2 {
     grid-row-start: 1;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 #aabent {
-      grid-column-start: 2;
+    grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
 }
@@ -206,15 +208,15 @@ header h2 {
 }
 
 @keyframes bounce {
-    
+
     0% {
         transform: translateY(0px);
     }
-    
+
     50% {
         transform: translateY(10px);
     }
-    
+
     100% {
         transform: translateY(0px);
     }
@@ -330,14 +332,14 @@ footer p {
     }
     .logo {
         width: 35%;
-         grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 2;
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 2;
     }
     .nav img {
         width: 10%;
     }
-    
+
     .illuminati {
         width: 10%;
     }
@@ -346,59 +348,56 @@ footer p {
 /*PC*/
 
 @media (min-width:1025px) {
-<<<<<<< HEAD
 
-header {
-    display: grid;
-    grid-template-columns:10% 10% 14.63% 8.63% 13.3% 8.63% 14.63% 10% 10%;
-    grid-template-rows: 100px 100px 100px 200px 100px;
-}
-#aabent {
-    grid-column-start: 1;
-    margin-left: 30px;
-    margin-top: 30px;
-}
+    header {
+        display: grid;
+        grid-template-columns: 10% 10% 14.63% 8.63% 13.3% 8.63% 14.63% 10% 10%;
+        grid-template-rows: 100px 100px 100px 200px 100px 100px 100px 260px;
+    }
+
+    #aabent {
+        grid-column-start: 1;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
     .logo {
         width: 100%;
-         grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: ;
+        grid-column-start: 4;
+        grid-column-end: 7;
+        grid-row-start: 3;
     }
+
     .nav {
         width: 100%;
         grid-column-start: 6;
         grid-column-end: 10;
-        
     }
-.nav img {
-    margin-right: 30px;
-    margin-top: 20px;
-}
 
-.daeng {
-    grid-column-start: 5;
-    grid-column-end: 5;
+    .nav img {
+        margin-right: 30px;
+        margin-top: 20px;
+    }
 
-   
-}
-    
+    .daeng {
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 8;
+    }
+
     .illuminati {
         width: 60%;
         margin-top: 10px;
-        
     }
-}
-=======
-    
+
     .pcgrid {
         display: grid;
-        grid-template-columns: 10%; 80; 10%;
+        grid-template-columns: 10% 80% 10%;
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
     }
-    
+
     .pccontent {
         grid-column-start: 2;
         grid-column-end: 2;
     }
 }
->>>>>>> c23d463eced8c67c1d147108f11a9389512cbe56
