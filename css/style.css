@@ -324,8 +324,8 @@ footer p {
 
     header {
         display: grid;
-        grid-template-columns: 10% 22.5% 35% 22.5% 10%;
-        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-columns: 10% 20% 40% 20% 10%;
+        grid-template-rows: 0.5fr 2fr 0.5fr;
     }
 
     video {
@@ -379,10 +379,31 @@ footer p {
         grid-column-start: 3;
         grid-column-end: 4;
         text-align: center;
+        font-size: 18px;
     }
 
     .illuminati {
         display: none;
+    }
+    
+    .bodygrid {
+        display: grid;
+        grid-template-columns: 5% 45% 45% 5%
+    }
+    
+    .bill-ramme {
+        width: 100%;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    .deler {
+        width: 80%;
+    }
+    
+    section p {
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 }
 
