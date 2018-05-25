@@ -330,4 +330,17 @@ footer p {
 
 /*PC*/
 
-@media (min-width:1025px) {}
+@media (min-width:1025px) {
+    
+    .pcgrid {
+        display: grid;
+        grid-template-columns: 10%; 30%; 20%; 30%; 10%;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+    
+    .pccontent {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
+}
