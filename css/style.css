@@ -320,7 +320,7 @@ footer p {
 
 /*tablet*/
 
-@media (min-width:768px) {
+@media (min-width:420px) {
 
     header {
         display: grid;
