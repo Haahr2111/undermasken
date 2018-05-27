@@ -471,5 +471,42 @@ footer p {
         display: inline;
         margin-top: 10px;
     }
+    .bodygrid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+     
+    }
+    
+    .bill-ramme {
+        width: 25%;
 
+    }
+    
+    .content p {
+        width: 40%;
+    }
+    .springer {
+        width: 25%;
+    }
+    #fiskespringer {
+        width: 25%;
+    }
+    .haand {
+        width: 10%;
+    }
+    .info-bill {
+        width: 50%;
+    }
+    .piltop {
+        width: 50%;
+    }
+    .deler {
+        width: 50%;
+    
+    }
+    #fisk {
+        width: 6%;
+    }
 }
