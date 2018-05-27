@@ -96,6 +96,7 @@ video {
 
 .piltop img {
     width: 20%;
+    
 }
 
 /*content slut*/
@@ -386,25 +387,45 @@ footer p {
         display: none;
     }
     
-    .bodygrid {
-        display: grid;
-        grid-template-columns: 5% 45% 45% 5%
+    .content{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    
+    .column{
+        width: 45%;
+        float: left;
     }
     
     .bill-ramme {
         width: 100%;
-        grid-column-start: 3;
-        grid-column-end: 4;
     }
     
     .deler {
         width: 80%;
+        margin-left: 10%;
+
     }
     
-    section p {
-        grid-column-start: 2;
-        grid-column-end: 3;
+    #fisk{
+        width: 13%;
     }
+        
+    
+    #slam{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    
+    .piltop{
+        padding-top: 10%;
+        width: 600%;
+    }
+
+
 }
 
 /*PC*/
