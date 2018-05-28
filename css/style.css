@@ -425,7 +425,9 @@ footer p {
         width: 600%;
     }
 
-
+    #noshow {
+        display: none;
+    }
 }
 
 /*PC*/
