@@ -440,6 +440,10 @@ footer p {
         font-size: 25px;
         margin-top: 12%;
     }
+    
+    #timeglas {
+        margin-top: 20px;
+    }
 }
 
 /*PC*/
