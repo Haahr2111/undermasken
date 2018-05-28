@@ -297,10 +297,6 @@ nav img {
     margin-top: 10px;
 }
 
-.menu a:onclick{
-    color:aqua;
-}
-
 /*burger slut*/
 
 /*footer*/
@@ -399,7 +395,7 @@ footer p {
     }
 
     .daeng {
-        width: 100;
+        width: 100%;
         grid-row-start: 3;
         grid-column-start: 3;
         grid-column-end: 4;
