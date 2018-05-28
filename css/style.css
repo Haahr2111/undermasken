@@ -498,14 +498,7 @@ footer p {
         display: inline;
         margin-top: 10px;
     }
-    .bodygrid {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-     
-    }
-    
+   
     .bill-ramme {
         width: 25%;
 
