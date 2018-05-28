@@ -542,15 +542,18 @@ footer p {
     }
     .info-aabning{
         width: 50%;
-        margin-right: 35%;
-        margin-left: 35%
+        margin-right: 45%;
+        margin-left: 45%
 
     }
     .piltop {
+
         width: 80%;
     }
     .deler {
         width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
 
     }
     #fisk {
