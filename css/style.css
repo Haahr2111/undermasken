@@ -663,3 +663,17 @@ footer p {
         width: 55%;
     }
 }
+
+@media (min-width:1720px) {
+    
+    .column{
+        width: 50%;
+        align-items: center;
+    }
+    
+    .piltop{
+        width: 100%;
+    }
+
+   
+}
