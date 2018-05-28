@@ -533,6 +533,14 @@ footer p {
     }
     .info-bill {
         width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .info-aabning{
+        width: 50%;
+        margin-right: 35%;
+        margin-left: 35%
+
     }
     .piltop {
         width: 50%;
