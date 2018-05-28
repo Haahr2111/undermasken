@@ -277,6 +277,10 @@ nav img {
     margin-top: 10px;
 }
 
+.menu a:onclick{
+    color:aqua;
+}
+
 /*burger slut*/
 
 /*footer*/
@@ -390,7 +394,8 @@ footer p {
     .content{
         display: flex;
         flex-flow: row wrap;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
     }
     
@@ -405,8 +410,8 @@ footer p {
     }
     
     .deler {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        margin: 0 auto;
 
     }
     
@@ -420,9 +425,15 @@ footer p {
         margin-bottom: 20%;
     }
     
+    
+    
     .piltop{
         padding-top: 10%;
-        width: 600%;
+    }
+    
+    .piltop img{
+        width: 100%;
+        margin: 0 auto;
     }
 
 
