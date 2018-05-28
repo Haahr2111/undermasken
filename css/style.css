@@ -515,20 +515,24 @@ footer p {
     }
 
    
-
+    .content {
+        justify-content: center;
+    
+    }
 
     .bill-ramme {
-        width: 25%;
+        width: 45%;
 
     }
 
     .content p {
-        width: 40%;
-    }
-    .springer {
-        width: 25%;
+        width: 50%;
+        
     }
     #fiskespringer {
+        width: 50%;
+    }
+    .springer {
         width: 25%;
     }
     .haand {
@@ -538,7 +542,7 @@ footer p {
         width: 50%;
     }
     .piltop {
-        width: 50%;
+        width: 80%;
     }
     .deler {
         width: 50%;
