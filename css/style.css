@@ -463,6 +463,16 @@ footer p {
         grid-row-start: 1;
         grid-row-end: 4;
     }
+    
+    .bodygrid {
+        display: grid;
+        grid-template-columns: 15% 35% 35% 15%;
+    }
+    
+    .content {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
 
     #aabent {
         grid-column-start: 1;
@@ -510,17 +520,9 @@ footer p {
         display: inline;
         margin-top: 10px;
     }
-    .bodygrid {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-
-    }
 
     .bill-ramme {
         width: 25%;
-
     }
 
     .content p {
