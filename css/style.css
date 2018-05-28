@@ -454,7 +454,9 @@ footer p {
         margin-bottom: 30%;
     }
 
-
+    #fiskespringer {
+        margin-bottom: 15%;
+    }
     #slam {
         margin-top: 20%;
         margin-bottom: 20%;
@@ -662,6 +664,7 @@ footer p {
     .info-bill {
         width: 55%;
     }
+<<<<<<< HEAD
 }
 
 @media (min-width:1720px) {
@@ -676,4 +679,6 @@ footer p {
     }
 
    
+=======
+>>>>>>> ee1080733270418809384e1e7180d791bfe35e39
 }
