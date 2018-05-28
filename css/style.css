@@ -38,9 +38,6 @@ body {
     margin-top: 20px;
 }
 
-.info-aabning {
-    width: 100%;
-}
 .springer {
     grid-column-start: 2;
     width: 50%;
@@ -99,7 +96,6 @@ video {
 
 .piltop img {
     width: 20%;
-
 }
 
 /*content slut*/
@@ -429,7 +425,6 @@ footer p {
     }
 
     .piltop {
-
         padding-top: 10%;
     }
     
@@ -441,14 +436,9 @@ footer p {
     #noshow {
         display: none;
     }
-    
     footer p {
         font-size: 25px;
         margin-top: 12%;
-    }
-    
-    #timeglas {
-        margin-top: 20px;
     }
 }
 
@@ -516,26 +506,26 @@ footer p {
         display: inline;
         margin-top: 10px;
     }
+    .bodygrid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
 
-   
-    .content {
-        justify-content: center;
-    
     }
 
     .bill-ramme {
-        width: 45%;
+        width: 25%;
 
     }
 
     .content p {
-        width: 50%;
-        
-    }
-    #fiskespringer {
-        width: 50%;
+        width: 40%;
     }
     .springer {
+        width: 25%;
+    }
+    #fiskespringer {
         width: 25%;
     }
     .haand {
@@ -543,21 +533,12 @@ footer p {
     }
     .info-bill {
         width: 50%;
-        margin-right: 25%;
-        margin-left: 25%;
-    }
-    .info-aabning{
-        width: 50%;
-        margin-right: 30%;
-        margin-left: 30%
     }
     .piltop {
-        width: 80%;
+        width: 50%;
     }
     .deler {
         width: 50%;
-        margin-right: 25%;
-            margin-left: 25%;
 
     }
     #fisk {
