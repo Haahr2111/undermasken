@@ -54,6 +54,8 @@ body {
     align-self: baseline;
     position: absolute;
     margin-left: 60%;
+    margin-bottom: 10%;
+    
     
 }
 
@@ -421,6 +423,7 @@ footer p {
     #fisk {
         width: 10%;
         margin-left: 30%;
+        margin-bottom: 30%;
     }
 
 
