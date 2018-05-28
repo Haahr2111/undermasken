@@ -33,6 +33,10 @@ body {
     margin-top: 20px;
 }
 
+.info-aabning {
+    width: 100%;
+}
+
 .info-bill {
     width: 100%;
     margin-top: 20px;
@@ -64,8 +68,10 @@ div.haand{
     width: 20%;
     align-self: baseline;
     position: absolute;
-    margin-left: 230px;
-    margin-top: -20px;
+    margin-left: 60%;
+    margin-bottom: 10%;
+    
+    
 }
 
 #fiskediv {
@@ -443,7 +449,9 @@ footer p {
     }
     
     #fisk {
-        width: 13%;
+        width: 10%;
+        margin-left: 30%;
+        margin-bottom: 30%;
     }
 
 
@@ -609,7 +617,8 @@ footer p {
 
     }
     #fisk {
-        width: 6%;
+        width: 5%;
+        margin-left: 20%;
     }
     
     
@@ -647,5 +656,9 @@ footer p {
     
     .fa {
         font-size: 50px;
+    }
+    
+    .info-bill {
+        width: 55%;
     }
 }
