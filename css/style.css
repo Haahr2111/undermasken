@@ -425,12 +425,6 @@ footer p {
         margin-bottom: 20%;
     }
 
-    
-    
-    
-
-
-
     .piltop {
 
         padding-top: 10%;
@@ -444,9 +438,14 @@ footer p {
     #noshow {
         display: none;
     }
+    
     footer p {
         font-size: 25px;
         margin-top: 12%;
+    }
+    
+    #timeglas {
+        margin-top: 20px;
     }
 }
 
