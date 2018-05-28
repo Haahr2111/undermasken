@@ -96,7 +96,7 @@ video {
 
 .piltop img {
     width: 20%;
-    
+
 }
 
 /*content slut*/
@@ -291,7 +291,7 @@ footer {
     grid-template-rows: 5px 50px;
 }
 
-.ramme {
+footer img {
     width: 96%;
     margin-left: 2%;
     margin-bottom: 10px;
@@ -341,7 +341,7 @@ footer p {
     #landingimg {
         display: none;
     }
-    
+
     #aabent {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -390,44 +390,49 @@ footer p {
     .illuminati {
         display: none;
     }
-    
-    .content{
+
+    .content {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-around;
         width: 100%;
     }
-    
-    
-    .column{
+
+
+    .column {
         width: 45%;
         float: left;
     }
-    
+
     .bill-ramme {
         width: 100%;
     }
-    
+
     .deler {
         width: 100%;
         margin: 0 auto;
 
     }
-    
-    #fisk{
+
+    #fisk {
         width: 13%;
     }
-        
-    
-    #slam{
+
+
+    #slam {
         margin-top: 20%;
         margin-bottom: 20%;
     }
+<<<<<<< HEAD
     
     
     
     .piltop{
+=======
+
+    .piltop {
+>>>>>>> 599fc61ace6ff98fc2696e8ca95d13b688a58638
         padding-top: 10%;
     }
     
@@ -436,7 +441,13 @@ footer p {
         margin: 0 auto;
     }
 
-
+    #noshow {
+        display: none;
+    }
+    footer p {
+        font-size: 25px;
+        margin-top: 12%;
+    }
 }
 
 /*PC*/
@@ -449,7 +460,7 @@ footer p {
         grid-template-rows: 0.5fr 2fr 1fr;
         margin-bottom: 130px;
     }
-    
+
     video {
         grid-column-start: 1;
         grid-column-end: 10;
@@ -503,19 +514,23 @@ footer p {
         display: inline;
         margin-top: 10px;
     }
+<<<<<<< HEAD
     .bodygrid {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-     
+
     }
-    
+
+=======
+   
+>>>>>>> 67b397d44c8ba5ecf642481272f35fac77c71c0a
     .bill-ramme {
         width: 25%;
 
     }
-    
+
     .content p {
         width: 40%;
     }
@@ -536,9 +551,37 @@ footer p {
     }
     .deler {
         width: 50%;
-    
+
     }
     #fisk {
         width: 6%;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 15% 35% 35% 15%;
+    }
+
+    footer p {
+        font-size: 30px;
+        margin-top: 16%;
+    }
+
+    .ramme {
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .kontakt {
+        margin-left: 10%;
+    }
+
+    .adresse {
+        margin-right: 10%;
+    }
+    
+    .fa {
+        font-size: 50px;
     }
 }
