@@ -45,6 +45,21 @@ body {
     margin-left: 20px;
 }
 
+div.haand{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.haand img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.springerdiv{
+    width: 100%;
+}
+
 #fisk {
     width: 20%;
     align-self: baseline;
@@ -406,6 +421,7 @@ footer p {
 
     .bill-ramme {
         width: 100%;
+        margin-left: 10%;
     }
 
     .deler {
@@ -413,7 +429,19 @@ footer p {
         margin: 0 auto;
 
     }
+    
+    .springerdiv{
+        text-align: center;
+    }
 
+    div.haand{
+        width: 50%;
+    }
+    
+    .haand img{
+        width: 40%;
+    }
+    
     #fisk {
         width: 13%;
     }
@@ -570,6 +598,9 @@ footer p {
     .piltop {
 
         width: 80%;
+        margin: 0 auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
     .deler {
         width: 50%;
@@ -579,6 +610,15 @@ footer p {
     }
     #fisk {
         width: 6%;
+    }
+    
+    
+    .haand img{
+        width: 20%;
+    }
+    
+    .ryk{
+        width: 100%;
     }
 
     footer {
