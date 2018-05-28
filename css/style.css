@@ -612,4 +612,8 @@ footer p {
     .fa {
         font-size: 50px;
     }
+    
+    .info-bill {
+        width: 55%;
+    }
 }
