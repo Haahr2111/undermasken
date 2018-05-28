@@ -96,7 +96,7 @@ video {
 
 .piltop img {
     width: 20%;
-    
+
 }
 
 /*content slut*/
@@ -287,7 +287,7 @@ footer {
     grid-template-rows: 5px 50px;
 }
 
-.ramme {
+footer img {
     width: 96%;
     margin-left: 2%;
     margin-bottom: 10px;
@@ -337,7 +337,7 @@ footer p {
     #landingimg {
         display: none;
     }
-    
+
     #aabent {
         grid-column-start: 1;
         grid-column-end: 3;
@@ -386,41 +386,41 @@ footer p {
     .illuminati {
         display: none;
     }
-    
-    .content{
+
+    .content {
         display: flex;
         flex-flow: row wrap;
         align-items: flex-start;
         width: 100%;
     }
-    
-    
-    .column{
+
+
+    .column {
         width: 45%;
         float: left;
     }
-    
+
     .bill-ramme {
         width: 100%;
     }
-    
+
     .deler {
         width: 80%;
         margin-left: 10%;
 
     }
-    
-    #fisk{
+
+    #fisk {
         width: 13%;
     }
-        
-    
-    #slam{
+
+
+    #slam {
         margin-top: 20%;
         margin-bottom: 20%;
     }
-    
-    .piltop{
+
+    .piltop {
         padding-top: 10%;
         width: 600%;
     }
@@ -444,7 +444,7 @@ footer p {
         grid-template-rows: 0.5fr 2fr 1fr;
         margin-bottom: 130px;
     }
-    
+
     video {
         grid-column-start: 1;
         grid-column-end: 10;
@@ -503,14 +503,14 @@ footer p {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-     
+
     }
-    
+
     .bill-ramme {
         width: 25%;
 
     }
-    
+
     .content p {
         width: 40%;
     }
@@ -531,9 +531,37 @@ footer p {
     }
     .deler {
         width: 50%;
-    
+
     }
     #fisk {
         width: 6%;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 15% 35% 35% 15%;
+    }
+
+    footer p {
+        font-size: 30px;
+        margin-top: 16%;
+    }
+
+    .ramme {
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+    }
+
+    .kontakt {
+        margin-left: 10%;
+    }
+
+    .adresse {
+        margin-right: 10%;
+    }
+    
+    .fa {
+        font-size: 50px;
     }
 }
