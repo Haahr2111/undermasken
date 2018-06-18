@@ -49,18 +49,18 @@ body {
     margin-left: 20px;
 }
 
-div.haand{
+div.haand {
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
-.haand img{
+.haand img {
     width: 20%;
     margin: 0 auto;
 }
 
-.springerdiv{
+.springerdiv {
     width: 100%;
 }
 
@@ -70,8 +70,8 @@ div.haand{
     position: absolute;
     margin-left: 60%;
     margin-bottom: 10%;
-    
-    
+
+
 }
 
 #fiskediv {
@@ -180,6 +180,12 @@ header {
     display: grid;
     grid-template-columns: 5% 7.5% 37.5% 37.5% 7.5% 5%;
     grid-template-rows: 100px 80px 100px 175px 200px;
+}
+
+.Schedule {
+    margin-top: -100px;
+    width: 200px;
+    display: none;
 }
 
 .logo {
@@ -349,6 +355,13 @@ footer p {
         grid-template-rows: 0.5fr 2fr 0.5fr;
     }
 
+    .Schedule {
+        margin-top: 1px;
+        height: 50px;
+        width: 300px;
+        display: none;
+    }
+
     video {
         display: block;
         width: 100%;
@@ -431,19 +444,19 @@ footer p {
         margin: 0 auto;
 
     }
-    
-    .springerdiv{
+
+    .springerdiv {
         text-align: center;
     }
 
-    div.haand{
+    div.haand {
         width: 50%;
     }
-    
-    .haand img{
+
+    .haand img {
         width: 40%;
     }
-    
+
     #fisk {
         width: 10%;
         margin-left: 30%;
@@ -461,17 +474,17 @@ footer p {
     .piltop {
         padding-top: 10%;
     }
-    
-    .piltop img{
+
+    .piltop img {
         width: 100%;
         margin: 0 auto;
     }
-    
-     h1{
+
+    h1 {
         width: 100%;
         margin: 0 auto;
         margin-bottom: 5%;
-        text-align: center; 
+        text-align: center;
     }
 
     #noshow {
@@ -481,7 +494,7 @@ footer p {
         font-size: 25px;
         margin-top: 12%;
     }
-    
+
     #timeglas {
         margin-top: 20px;
     }
@@ -498,18 +511,24 @@ footer p {
         margin-bottom: 130px;
     }
 
+    .Schedule {
+        height: 1s0px;
+        width: 300px;
+        display: none;
+    }
+
     video {
         grid-column-start: 1;
         grid-column-end: 10;
         grid-row-start: 1;
         grid-row-end: 4;
     }
-    
+
     .bodygrid {
         display: grid;
         grid-template-columns: 15% 35% 35% 15%;
     }
-    
+
     .content {
         grid-column-start: 2;
         grid-column-end: 4;
@@ -555,13 +574,13 @@ footer p {
         font-size: 18px;
         margin-top: 50px;
     }
-    
-    
-     h1{
+
+
+    h1 {
         width: 100%;
         margin: 0 auto;
         margin-bottom: 5%;
-        text-align: center; 
+        text-align: center;
     }
 
     .illuminati {
@@ -574,13 +593,13 @@ footer p {
         width: 80%;
     }
 
-    
+
     .springer {
         width: 40%;
         margin: 0 auto;
     }
-    
-    .springerdiv{
+
+    .springerdiv {
         width: 100%;
         text-align: center;
     }
@@ -596,11 +615,10 @@ footer p {
         margin-right: 25%;
         margin-left: 25%;
     }
-    .info-aabning{
+    .info-aabning {
         width: 50%;
         margin-right: 45%;
         margin-left: 45%
-
     }
     .piltop {
 
@@ -619,13 +637,13 @@ footer p {
         width: 5%;
         margin-left: 20%;
     }
-    
-    
-    .haand img{
+
+
+    .haand img {
         width: 20%;
     }
-    
-    .ryk{
+
+    .ryk {
         width: 100%;
     }
 
@@ -652,11 +670,11 @@ footer p {
     .adresse {
         margin-right: 10%;
     }
-    
+
     .fa {
         font-size: 50px;
     }
-    
+
     .info-bill {
         width: 55%;
     }
@@ -664,13 +682,13 @@ footer p {
 }
 
 @media (min-width:1720px) {
-    
-    .column{
+
+    .column {
         width: 50%;
         align-items: center;
     }
-    
-    .piltop{
+
+    .piltop {
         width: 100%;
     }
 
