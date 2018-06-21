@@ -204,7 +204,7 @@ header h2 {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-#aabent {
+.aabent {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -371,7 +371,7 @@ footer p {
         display: none;
     }
 
-    #aabent {
+    .aabent {
         grid-column-start: 1;
         grid-column-end: 3;
         margin-left: 30px;
@@ -534,7 +534,7 @@ footer p {
         grid-column-end: 4;
     }
 
-    #aabent {
+    .aabent {
         grid-column-start: 1;
         margin-left: 30px;
         margin-top: 10px;
